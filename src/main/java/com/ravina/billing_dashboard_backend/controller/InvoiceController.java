@@ -8,7 +8,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/invoices")
-@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://billing-dashboard-react-production.up.railway.app"
+})
 public class InvoiceController {
 
     private final InvoiceService invoiceService;
