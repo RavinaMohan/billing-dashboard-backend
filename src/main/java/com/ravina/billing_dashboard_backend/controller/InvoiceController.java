@@ -11,7 +11,7 @@ import java.util.List;
 //@CrossOrigin(origins = "http://localhost:5173")
 @CrossOrigin(origins = {
         "http://localhost:5173",
-        "https://billing-dashboard-react-production.up.railway.app"
+        "https://billing-dashboard-react-mb99.vercel.app"
 })
 public class InvoiceController {
 
